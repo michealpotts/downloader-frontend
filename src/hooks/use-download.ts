@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const useDownload = async (url: string) => {
-  const res = await axios.get("http://localhost:3000/download", {
+  const res = await axios.get("https://downloader-backend-b8x5.onrender.com/download", {
     params: { url },
     responseType: "blob"
   });
