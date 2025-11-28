@@ -1,0 +1,13 @@
+.sidebar-btn {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .rect {
+        display: none;
+    }
+
+    .sidebar-btn {
+        display: block;
+    }
+}
